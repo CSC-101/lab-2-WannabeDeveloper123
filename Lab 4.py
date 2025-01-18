@@ -25,8 +25,8 @@ def length_sum(L:list[str]) -> int:
     return result
 
 
-#first = length_sum(["this", "is", "the", "first", "call"])
-#second = length_sum(["second call"])
+first = length_sum(["this", "is", "the", "first", "call"])
+second = length_sum(["second call"])
 third = length_sum(["another", "call"])
 print()
 
@@ -36,8 +36,8 @@ def surprising(L:list[str], other:str) -> list[str]:
 
 
 words = ["this", "is", "confusing", "code."]
-#first = surprising(words, "Avoid")
-#second = surprising(words, "such.")
+first = surprising(words, "Avoid")
+second = surprising(words, "such.")
          # What is the value of words at this point? ['this', 'is', 'confusing', 'code.', 'AVOID', 'SUCH.']
          # What are the values of first and second at this point? first and second share same value as the list words.
          # What happened? list is mutable, reflecting changes due to the function call in second to the call in first.
