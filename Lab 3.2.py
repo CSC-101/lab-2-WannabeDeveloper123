@@ -12,7 +12,7 @@ def copy(nums:list[int]) -> list[int]:
     new_list = []
     for idx in range(len(nums)):
         new_list.append(nums[idx])     # Record each value of new_list and idx at the end of the loop body.
-    return new_list                    # How does this loop differ from that above? adding a list as an element instead of adding integers as an element instead.
+    return new_list                    # How does this loop differ from that above? Adding a list as an element instead of adding integers as an element instead.
 #we're also creating a new list to store changes instead of modifying the old one.
 #new_list = [4], [4,9], [4,9,2], [4,9,2,1]
 #idx = 4, 9, 2, 1
