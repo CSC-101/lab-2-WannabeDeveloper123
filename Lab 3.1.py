@@ -22,5 +22,5 @@ def check(n:int) -> bool:
     return n > 2                             # Record, in order of the calls, each value of n and 0-False, 1-False, 2-False, 3-True, 4-True
                                              # the corresponding return value.
 
-answer = [inc(x) for x in range(5) if check(x)]   # What is the value of answer? [4,5]
+answer = [inc(x) for x in range(5) if check(x)]   # What is the value of answer? [4,5].
 print()
